@@ -130,24 +130,28 @@ Target Achievement % = DIVIDE([2021 - Target 2021], [Target 2021], 0)
 | **Power Pivot** | Data Modeling | Relationships, Calculated Columns |
 | **DAX** | Business Logic | Time Intelligence, Calculations |
 
-## Key Business Insights
+## Business Insights
 
 ### **Explosive Growth Story**
+![Growth Story](assets/pnl_fy_in.png)
 - **Net Sales Growth:** ₹2.87 Cr (FY19) → ₹15.42 Cr (FY21)
 - **Growth Multiple:** **5.37x increase** over 3 years
 - **FY21 Performance:** **222% YoY growth** - breakthrough year
 
 ### **Seasonal Trends**
+![Seasonal Trends](assets/pnl_month_in.png)
 - **Peak Month:** December FY21 (₹7.81 Cr)
 - **Growth Pattern:** Strong Q2 performance (Oct-Dec)
 - **Opportunity:** Leverage festive season strategies
 
 ### **Market Performance**
+![Market Performance](assets/m_vs_t_in.png)
 - **Top Market:** India (₹15.42 Cr in FY21)
 - **Challenge:** All markets missed FY21 targets
 - **Action Required:** Reassess forecasting methodology
 
 ### **Customer Diversification**
+![Customer Diversification](assets/ns_comp_in.png)
 - **India Growth:** 321.8% YoY (₹4.79 Cr → ₹15.42 Cr)
 - **Top Contributors:** Amazon, AtliQ Exclusive, Flipkart
 - **Risk Mitigation:** No single customer >14% dependency
@@ -171,7 +175,7 @@ Target Achievement % = DIVIDE([2021 - Target 2021], [Target 2021], 0)
 - Power Query Add-in (if using Excel 2010-2013)
 - Basic understanding of Excel formulas
 
-## Author
+## Contact Me
 
 **Durgesh Nautiyal**
 - LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/durgesh-nautiyal-95a866223/)
