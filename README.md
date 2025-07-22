@@ -76,14 +76,17 @@ A comprehensive Excel-based analytics solution featuring:
 ## Technical Implementation
 
 ### **Power Query (ETL)**
+
+#### 1. Date Range Generation
 ```m
-// Custom Fiscal Year Logic
+= List.Dates(#date(2018, 09, 01), 1100, #duration(1, 0, 0, 0))
+```
+
+#### 2. Custom Fiscal Year Logic
+```m
 = if Date.Month([date]) >= 8 
   then "FY " & Text.From(Date.Year([date])+1) 
   else "FY " & Text.From(Date.Year([date]))
-
-// Date Range Generation
-= List.Dates(#date(2018, 09, 01), 1100, #duration(1, 0, 0, 0))
 ```
 
 ### **Key DAX Measures**
@@ -171,5 +174,5 @@ Target Achievement % = DIVIDE([2021 - Target 2021], [Target 2021], 0)
 ## Author
 
 **Durgesh Nautiyal**
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
+- LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/durgesh-nautiyal-95a866223/)
+- Email: durgeshnautiyal11@gmail.com
