@@ -10,6 +10,9 @@
 
 This project delivers a comprehensive **Sales & Financial Analytics Dashboard** for AtliQ Hardware, transforming raw transactional data into actionable business insights. Built entirely in Excel using advanced analytics tools, it provides stakeholders with clear visibility into sales performance, market trends, and financial metrics.
 
+### Interactive Demo
+![Report Demo](assets/report_demo.gif)
+
 ### About AtliQ Hardware
 
 AtliQ Hardware is a leading electronics manufacturer specializing in:
@@ -21,10 +24,7 @@ AtliQ Hardware is a leading electronics manufacturer specializing in:
 - **Retail Partners:** Croma, Best Buy, and other brick-and-mortar stores
 - **E-commerce Platforms:** Amazon, Flipkart, and online marketplaces
 
-## Dashboard Preview
-
-### Interactive Demo
-![Dashboard Demo](assets/report_demo.gif)
+## Report Preview
 
 ### Report Screenshots
 
