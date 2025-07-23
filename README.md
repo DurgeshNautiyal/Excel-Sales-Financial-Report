@@ -88,8 +88,50 @@ A comprehensive Excel-based analytics solution featuring:
   then "FY " & Text.From(Date.Year([date])+1) 
   else "FY " & Text.From(Date.Year([date]))
 ```
+### **DAX calculated column**
 
-### **Key DAX Measures**
+#### Date Table **`dim_date`**
+
+###### 1. Fiscal Month Number
+```dax
+= MOD(
+	MONTH(dim_date[Date]) - 8,
+	12
+	)
+	+ 1
+```
+
+###### 2. Fiscal Month Name
+```dax
+= SWITCH( 
+    dim_date[Fiscal Month Number],
+    1, "Aug",
+    2, "Sep",
+    3, "Oct",
+    4, "Nov",
+    5, "Dec",
+    6, "Jan",
+    7, "Feb",
+    8, "Mar",
+    9, "Apr",
+    10, "May",
+    11, "Jun",
+    12, "Jul"
+)
+```
+
+###### 3. Fiscal Quarter
+```dax
+= SWITCH(
+	TRUE(),
+	MONTH(dim_date[Date]) IN {8, 9, 10}, "Q1",
+	MONTH(dim_date[Date]) IN {11, 12, 1}, "Q2",
+	MONTH(dim_date[Date]) IN {2, 3, 4}, "Q3",
+	MONTH(dim_date[Date]) IN {5, 6, 7}, "Q4"
+	)
+```
+
+### **DAX Measures**
 
 #### Financial Metrics
 ```dax
