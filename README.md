@@ -130,37 +130,58 @@ A comprehensive Excel-based analytics solution featuring:
 	MONTH(dim_date[Date]) IN {5, 6, 7}, "Q4"
 	)
 ```
-
 ### **DAX Measures**
 
 #### Financial Metrics
+
+###### 1. Net Sales
 ```dax
 Net Sales = SUM(fact_sales_monthly[Net Sales Amount])
+```
 
+###### 2. COGS
+```dax
 COGS = SUM(fact_sales_monthly[Freight Cost]) + 
        SUM(fact_sales_monthly[Manufacturing Cost])
+```
 
+###### 3. Gross Margin
+```dax
 Gross Margin = [Net Sales] - [COGS]
+```
 
+###### 4. Gross Margin %
+```dax
 Gross Margin % = DIVIDE([Gross Margin], [Net Sales], 0)
 ```
 
 #### Growth Analytics
+
+###### 1. Net Sales Last Year
 ```dax
 Net Sales LY = CALCULATE([Net Sales], SAMEPERIODLASTYEAR(dim_date[Date]))
+```
 
+###### 2. Net Sales Change
+```dax
 Net Sales Change = [Net Sales] - [Net Sales LY]
+```
 
+###### 3. % Growth
+```dax
 % Growth = DIVIDE([Net Sales Change], [Net Sales LY], 0)
 ```
 
 #### Target Analysis
+
+###### 1. Target 2021
 ```dax
 Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
+```
 
+###### 2. 2021 vs Target
+```dax
 2021 vs Target = [2021] - [Target 2021]
-
-Target Achievement % = DIVIDE([2021 - Target 2021], [Target 2021], 0)
 ```
 
 ### **Technology Stack**
