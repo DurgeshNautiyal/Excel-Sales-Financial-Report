@@ -194,17 +194,26 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 
 ## Business Insights
 
-### **Explosive Growth Story**
-![Growth Story](assets/pnl_fy_in.png)
-- **Net Sales Growth:** ₹2.87 Cr (FY19) → ₹15.42 Cr (FY21)
-- **Growth Multiple:** **5.37x increase** over 3 years
-- **FY21 Performance:** **222% YoY growth** - breakthrough year
+### **P & L Fiscal Year**
+![P and L By Year](assets/pnl_fy_in.png)
+- Strong Revenue Growth in India
+- Net Sales increased steadily:
+  - From ₹ 2.87 Cr in FY19 → ₹ 4.79 Cr in FY20 → ₹ 15.42 Cr in FY21.
+  - 5.37x growth over 3 years, showing aggressive expansion.
+- **FY 2021** alone saw **222% growth** from **FY 2020**, indicating a breakout year.
 
 ### **Seasonal Trends**
 ![Seasonal Trends](assets/pnl_month_in.png)
-- **Peak Month:** December FY21 (₹7.81 Cr)
-- **Growth Pattern:** Strong Q2 performance (Oct-Dec)
-- **Opportunity:** Leverage festive season strategies
+- Revenue Growth Trend for FY 2021
+  - Net Sales started low in August (₹1.65 Cr) and rapidly increased to a peak in December (₹7.81 Cr).
+    - **Peak Month:** December FY21 (₹7.81 Cr)
+    - **Growth Pattern:** Strong Q2 performance (Oct-Dec)
+  - From Jan to Jul, Net Sales remained stable around ₹4.40–₹4.48 Cr.
+  - Insight: Strong sales momentum in Q2 (Oct–Dec), especially December, suggests a festive or seasonal sales spike — possibly due to Diwali, holiday promotions, or year-end buying cycles.
+    - **Opportunity:** Leverage festive season strategies
+
+
+
 
 ### **Market Performance**
 ![Market Performance](assets/m_vs_t_in.png)
