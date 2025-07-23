@@ -204,7 +204,7 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 
 ### **Seasonal Trends**
 ![Seasonal Trends](assets/pnl_month_in.png)
-- Revenue Growth Trend for FY 2021
+- **Revenue Growth Trend for FY 2021**
   - Net Sales started low in August (₹1.65 Cr) and rapidly increased to a peak in December (₹7.81 Cr).
     - **Peak Month:** December FY21 (₹7.81 Cr)
     - **Growth Pattern:** Strong Q2 performance (Oct-Dec)
