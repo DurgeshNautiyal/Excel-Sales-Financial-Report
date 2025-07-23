@@ -209,7 +209,7 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
     - **Peak Month:** December FY21 (₹7.81 Cr)
     - **Growth Pattern:** Strong Q2 performance (Oct-Dec)
   - From Jan to Jul, Net Sales remained stable around ₹4.40–₹4.48 Cr.
-  - Insight: Strong sales momentum in Q2 (Oct–Dec), especially December, suggests a festive or seasonal sales spike — possibly due to Diwali, holiday promotions, or year-end buying cycles.
+  - **Insight:** Strong sales momentum in Q2 (Oct–Dec), especially December, suggests a festive or seasonal sales spike — possibly due to Diwali, holiday promotions, or year-end buying cycles.
     - **Opportunity:** Leverage festive season strategies
 
 
