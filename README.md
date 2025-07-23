@@ -196,7 +196,7 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 
 ### **P & L Fiscal Year**
 ![P and L By Year](assets/pnl_fy_in.png)
-- Strong Revenue Growth in India
+- Strong Revenue Growth in India.
 - Net Sales increased steadily:
   - From ₹ 2.87 Cr in FY19 → ₹ 4.79 Cr in FY20 → ₹ 15.42 Cr in FY21.
   - 5.37x growth over 3 years, showing aggressive expansion.
@@ -213,13 +213,18 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
     - **Opportunity:** Leverage festive season strategies
 
 
-
-
 ### **Market Performance**
 ![Market Performance](assets/m_vs_t_in.png)
-- **Top Market:** India (₹15.42 Cr in FY21)
-- **Challenge:** All markets missed FY21 targets
-- **Action Required:** Reassess forecasting methodology
+- **Top Performing Market – India (₹15.42 Cr in FY21)**
+  - Highest FY 2021 Net Sales: ₹ 15.42 Cr
+  - Despite missing target, India contributed ~44% of total sales (15.42 / 34.92)
+- **Strong Sales Growth Across Top 3 Markets from 2019 to 2021**
+  - India: ₹ 2.87 Cr → ₹ 15.42 Cr (5.37x growth)
+  - USA: ₹ 1.08 Cr → ₹ 8.43 Cr (7.8x growth)
+  - Philippines: ₹ 0.52 Cr → ₹ 3.07 Cr (5.9x growth)
+- **Targets Missed in All Markets**
+  - **Challenge:** All markets missed FY21 targets
+  - **Action Required:** Reassess forecasting methodology
 
 ### **Customer Diversification**
 ![Customer Diversification](assets/ns_comp_in.png)
