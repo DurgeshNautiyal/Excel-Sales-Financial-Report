@@ -200,7 +200,7 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 - Net Sales increased steadily:
   - From ₹ 2.87 Cr in FY19 → ₹ 4.79 Cr in FY20 → ₹ 15.42 Cr in FY21.
   - 5.37x growth over 3 years, showing aggressive expansion.
-- **FY 2021** alone saw **222% growth** from **FY 2020**, indicating a breakout year.
+- **FY 2021** alone saw **222% growth** from **FY 2020**, indicating a **breakout year**.
 
 ### **Seasonal Trends**
 ![Seasonal Trends](assets/pnl_month_in.png)
