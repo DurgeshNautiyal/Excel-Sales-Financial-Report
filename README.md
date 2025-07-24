@@ -91,7 +91,7 @@ A comprehensive Excel-based analytics solution featuring:
 
 #### Date Table **`dim_date`**
 
-##### 1. Fiscal Month Number
+##### (a). Fiscal Month Number
 ```dax
 = MOD(
 	MONTH(dim_date[Date]) - 8,
@@ -100,7 +100,7 @@ A comprehensive Excel-based analytics solution featuring:
 	+ 1
 ```
 
-##### 2. Fiscal Month Name
+##### (b). Fiscal Month Name
 ```dax
 = SWITCH( 
     dim_date[Fiscal Month Number],
@@ -119,7 +119,7 @@ A comprehensive Excel-based analytics solution featuring:
 )
 ```
 
-##### 3. Fiscal Quarter
+##### (c). Fiscal Quarter
 ```dax
 = SWITCH(
 	TRUE(),
@@ -131,54 +131,54 @@ A comprehensive Excel-based analytics solution featuring:
 ```
 ### **DAX Measures**
 
-#### Financial Metrics
+#### 1. Financial Metrics
 
-##### 1. Net Sales
+##### (a). Net Sales
 ```dax
 Net Sales = SUM(fact_sales_monthly[Net Sales Amount])
 ```
 
-##### 2. COGS
+##### (b). COGS
 ```dax
 COGS = SUM(fact_sales_monthly[Freight Cost]) + 
        SUM(fact_sales_monthly[Manufacturing Cost])
 ```
 
-##### 3. Gross Margin
+##### (c). Gross Margin
 ```dax
 Gross Margin = [Net Sales] - [COGS]
 ```
 
-##### 4. Gross Margin %
+##### (d). Gross Margin %
 ```dax
 Gross Margin % = DIVIDE([Gross Margin], [Net Sales], 0)
 ```
 
-#### Growth Analytics
+#### 2. Growth Analytics
 
-##### 1. Net Sales Last Year
+##### (a). Net Sales Last Year
 ```dax
 Net Sales LY = CALCULATE([Net Sales], SAMEPERIODLASTYEAR(dim_date[Date]))
 ```
 
-##### 2. Net Sales Change
+##### (b). Net Sales Change
 ```dax
 Net Sales Change = [Net Sales] - [Net Sales LY]
 ```
 
-##### 3. % Growth
+##### (c). % Growth
 ```dax
 % Growth = DIVIDE([Net Sales Change], [Net Sales LY], 0)
 ```
 
-#### Target Analysis
+#### 3. Target Analysis
 
-##### 1. Target 2021
+##### (a). Target 2021
 ```dax
 Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 ```
 
-##### 2. 2021 vs Target
+##### (b). 2021 vs Target
 ```dax
 2021 vs Target = [2021] - [Target 2021]
 ```
