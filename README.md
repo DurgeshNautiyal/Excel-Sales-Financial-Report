@@ -194,7 +194,7 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 
 ## Insights
 
-### 1. **P & L Fiscal Year**
+### 1. **P & L Fiscal Year – India**
 
 ![P and L By Year](assets/pnl_fy_in.png)
 
@@ -204,7 +204,7 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
   - 5.37x growth over 3 years, showing aggressive expansion.
 - **FY 2021** alone saw **222% growth** from **FY 2020**, indicating a **breakout year**.
 
-### 2. **Seasonal Trends**
+### 2. **Seasonal Trends – FY 2021**
 
 ![P and L By Month](assets/pnl_month_in.png)
 
@@ -216,11 +216,11 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
   - **Insight:** Strong sales momentum in Q2 (Oct–Dec), especially December, suggests a festive or seasonal sales spike — possibly due to Diwali, holiday promotions, or year-end buying cycles.
     - **Opportunity:** Leverage festive season strategies
 
-### 3. **Market Performance vs. Target** (top 5 country)
+### 3. **Market Performance vs. Target** (Top 5 Country)
 
 ![Market Performance vs. Target](assets/m_vs_t_in.png)
 
-#### Performance Table (top 5 country)
+#### Performance Table (Top 5 Country)
 
 | Country       | 2019      | 2020      | 2021       | 2021 - Target 2021 | %        |
 |---------------|-----------|-----------|------------|--------------------|----------|
