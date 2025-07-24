@@ -1,4 +1,4 @@
-# Excel Sales & Financial Analytics Dashboard
+# Excel Sales & Financial Analytics Report
 
 > **Comprehensive Sales & Financial Performance Analysis using Excel Power Tools**
 
@@ -91,7 +91,7 @@ A comprehensive Excel-based analytics solution featuring:
 
 #### Date Table **`dim_date`**
 
-###### 1. Fiscal Month Number
+##### 1. Fiscal Month Number
 ```dax
 = MOD(
 	MONTH(dim_date[Date]) - 8,
@@ -100,7 +100,7 @@ A comprehensive Excel-based analytics solution featuring:
 	+ 1
 ```
 
-###### 2. Fiscal Month Name
+##### 2. Fiscal Month Name
 ```dax
 = SWITCH( 
     dim_date[Fiscal Month Number],
@@ -119,7 +119,7 @@ A comprehensive Excel-based analytics solution featuring:
 )
 ```
 
-###### 3. Fiscal Quarter
+##### 3. Fiscal Quarter
 ```dax
 = SWITCH(
 	TRUE(),
@@ -131,54 +131,54 @@ A comprehensive Excel-based analytics solution featuring:
 ```
 ### **DAX Measures**
 
-### Financial Metrics
+#### Financial Metrics
 
-###### 1. Net Sales
+##### 1. Net Sales
 ```dax
 Net Sales = SUM(fact_sales_monthly[Net Sales Amount])
 ```
 
-###### 2. COGS
+##### 2. COGS
 ```dax
 COGS = SUM(fact_sales_monthly[Freight Cost]) + 
        SUM(fact_sales_monthly[Manufacturing Cost])
 ```
 
-###### 3. Gross Margin
+##### 3. Gross Margin
 ```dax
 Gross Margin = [Net Sales] - [COGS]
 ```
 
-###### 4. Gross Margin %
+##### 4. Gross Margin %
 ```dax
 Gross Margin % = DIVIDE([Gross Margin], [Net Sales], 0)
 ```
 
-### Growth Analytics
+#### Growth Analytics
 
-###### 1. Net Sales Last Year
+##### 1. Net Sales Last Year
 ```dax
 Net Sales LY = CALCULATE([Net Sales], SAMEPERIODLASTYEAR(dim_date[Date]))
 ```
 
-###### 2. Net Sales Change
+##### 2. Net Sales Change
 ```dax
 Net Sales Change = [Net Sales] - [Net Sales LY]
 ```
 
-###### 3. % Growth
+##### 3. % Growth
 ```dax
 % Growth = DIVIDE([Net Sales Change], [Net Sales LY], 0)
 ```
 
-### Target Analysis
+#### Target Analysis
 
-###### 1. Target 2021
+##### 1. Target 2021
 ```dax
 Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 ```
 
-###### 2. 2021 vs Target
+##### 2. 2021 vs Target
 ```dax
 2021 vs Target = [2021] - [Target 2021]
 ```
@@ -214,7 +214,7 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 
 ### 3. **Market Performance vs. Target**
 
-###### Performance Table
+#### Performance Table
 
 | Country       | 2019      | 2020      | 2021       | 2021 - Target 2021 | %        |
 |---------------|-----------|-----------|------------|--------------------|----------|
@@ -235,14 +235,14 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 
 ### 4. **Net Sales Insights – India**
 
-###### Key Observations
+#### (a). Key Observations
 
 - **Significant Growth Trend**: Net sales in India show a strong upward trend over the three fiscal years analyzed.
 - **FY 2019 Baseline**: Sales started at ₹2.87Cr in FY 2019, which serves as the base year for comparison.
 - **FY 2020 Growth**: Net sales increased to ₹4.79Cr, a rise of ₹1.92Cr, representing a **66.89% growth** over the previous year.
 - **FY 2021 Surge**: Net sales surged to ₹15.42Cr, a substantial jump of ₹10.63Cr and a **221.80% growth** over FY 2020.
 
-###### Summary Table
+#### (b). Summary Table
 
 | Fiscal Year | Net Sales   | YoY Growth (%) | Change (₹ Cr) |
 |-------------|-------------|---------------|---------------|
@@ -250,29 +250,29 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 | FY 2020     | ₹4.79Cr     | 66.89         | +₹1.92Cr      |
 | FY 2021     | ₹15.42Cr    | 221.80        | +₹10.63Cr     |
 
-###### Interpretations
+#### (c). Interpretations
 
 - The **market in India is experiencing exponential net sales growth**. The increase from FY 2020 to FY 2021 far outpaces the previous year’s percentage and absolute rise.
 - **FY 2021 marks a pivotal acceleration**—the growth rate more than tripled compared to FY 2020, indicating possible entry into a high-growth phase, successful business strategies, or favorable market conditions.
 
-###### Actionable Insights
+#### (d). Actionable Insights
 
 - **Sustain Momentum**: Leverage the factors contributing to this high growth and identify any replicable strategies.
 - **Monitor Drivers**: Analyze underlying causes for the FY 2021 surge (e.g., market expansion, product launches, policy changes).
 - **Future Planning**: Prepare for scaling operations and managing rapid growth risks as such aggressive increases can strain resources.
 
-###### Conclusion
+#### Conclusion
 
  - The data highlights **India as a rapidly expanding market** with extraordinary year-on-year sales increases from FY 2019 to FY 2021. This momentum presents significant opportunities but also calls for strategic actions to sustain and capitalize on the growth trajectory.
 
 ### 5. **Net Sales Performance Insights – India**
 
-###### 1. Significant Net Sales Growth
+#### (a). Significant Net Sales Growth
 
 - **Total Net Sales** increased from ₹2.87Cr in 2019 to ₹15.42Cr in 2021.
 - The **overall growth rate** (2021 vs. 2020) is an impressive **321.80%**.
 
-###### 2. Top-Performing Customers by Growth (2021 vs. 2020)
+#### (b). Top-Performing Customers by Growth (2021 vs. 2020)
 
 | Customer             | 2021 Net Sales | Growth Rate vs 2020 |
 |----------------------|---------------|---------------------|
@@ -284,7 +284,7 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 
 - These customers have growth rates well above the overall average, indicating strong sales expansion.
 
-###### 3. Largest Absolute Sales Contributors (2021)
+#### (c). Largest Absolute Sales Contributors (2021)
 
 | Customer             | 2021 Net Sales |
 |----------------------|----------------|
@@ -296,17 +296,17 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 
 - Amazon and AtliQ Exclusive together contributed over ₹3.9Cr, reinforcing their status as leading channels.
 
-###### 4. Broad-Based Acceleration
+#### (d). Broad-Based Acceleration
 
 - Every listed customer experienced a **minimum growth of 230% year-on-year**, emphasizing strong, broad-based market acceleration.
 - Traditional retail and large-format stores (e.g., Croma, Flipkart, Reliance Digital, Viveks) also saw robust gains or more than tripled their net sales from 2020.
 
-###### 5. Market Implications
+#### (e). Market Implications
 
 - The exceptionally high growth rates indicate successful market strategies and possibly increased consumer demand, digital adoption, or improved product-market fit.
 - No major customer has stagnated—consistent triple-digit growth is seen across both traditional and online channels.
 
-###### Conclusion
+#### Conclusion
 
 - The Indian market demonstrates outstanding net sales momentum from 2019 to 2021, with universal, high-magnitude growth among all main customers. Leaders like Amazon and AtliQ Exclusive both drive and reflect the market’s dynamism. The data suggests strong market demand, effective distribution expansion, and a favorable environment for further sales growth.
 
