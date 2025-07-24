@@ -196,6 +196,8 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 
 ### 1. **P & L Fiscal Year**
 
+![P and L By Year](assets/pnl_fy_in.png)
+
 - Strong Revenue Growth in India.
 - Net Sales increased steadily:
   - From ₹ 2.87 Cr in FY19 → ₹ 4.79 Cr in FY20 → ₹ 15.42 Cr in FY21.
@@ -203,6 +205,8 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 - **FY 2021** alone saw **222% growth** from **FY 2020**, indicating a **breakout year**.
 
 ### 2. **Seasonal Trends**
+
+![P and L By Month](assets/pnl_month_in.png)
 
 - **Revenue Growth Trend for FY 2021**
   - Net Sales started low in August (₹1.65 Cr) and rapidly increased to a peak in December (₹7.81 Cr).
@@ -212,9 +216,11 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
   - **Insight:** Strong sales momentum in Q2 (Oct–Dec), especially December, suggests a festive or seasonal sales spike — possibly due to Diwali, holiday promotions, or year-end buying cycles.
     - **Opportunity:** Leverage festive season strategies
 
-### 3. **Market Performance vs. Target**
+### 3. **Market Performance vs. Target** (top 5 country)
 
-#### Performance Table
+![Market Performance vs. Target](assets/m_vs_t_in.png)
+
+#### Performance Table (top 5 country)
 
 | Country       | 2019      | 2020      | 2021       | 2021 - Target 2021 | %        |
 |---------------|-----------|-----------|------------|--------------------|----------|
@@ -234,6 +240,8 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
   - **Action Required:** Reassess forecasting methodology
 
 ### 4. **Net Sales Insights – India**
+
+![Net Sales Insights](assets/ns_comp_in.png)
 
 #### (a). Key Observations
 
@@ -266,6 +274,8 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
  - The data highlights **India as a rapidly expanding market** with extraordinary year-on-year sales increases from FY 2019 to FY 2021. This momentum presents significant opportunities but also calls for strategic actions to sustain and capitalize on the growth trajectory.
 
 ### 5. **Net Sales Performance Insights – India**
+
+![Net Sales Performance](assets/cust_perf_in.png)
 
 #### (a). Significant Net Sales Growth
 
@@ -318,8 +328,6 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 - Basic understanding of Excel formulas
 
 ## Contact Me
-
-![P and L By Year](assets/pnl_fy_in.png)
 
 **Durgesh Nautiyal**
 - LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/durgesh-nautiyal-95a866223/)
