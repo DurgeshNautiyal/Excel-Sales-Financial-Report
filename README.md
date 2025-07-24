@@ -192,18 +192,90 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 | **Power Pivot** | Data Modeling | Relationships, Calculated Columns |
 | **DAX** | Business Logic | Time Intelligence, Calculations |
 
-## Business Insights
+## Insights
 
-### **P & L Fiscal Year**
-![P and L By Year](assets/pnl_fy_in.png)
+### 1. **P & L Fiscal Year**
+
 - Strong Revenue Growth in India.
 - Net Sales increased steadily:
   - From ₹ 2.87 Cr in FY19 → ₹ 4.79 Cr in FY20 → ₹ 15.42 Cr in FY21.
   - 5.37x growth over 3 years, showing aggressive expansion.
 - **FY 2021** alone saw **222% growth** from **FY 2020**, indicating a **breakout year**.
 
-### **Seasonal Trends**
-![Seasonal Trends](assets/pnl_month_in.png)
+### 2. **Seasonal Trends**
+
+- **Revenue Growth Trend for FY 2021**
+  - Net Sales started low in August (₹1.65 Cr) and rapidly increased to a peak in December (₹7.81 Cr).
+    - **Peak Month:** December FY21 (₹7.81 Cr)
+    - **Growth Pattern:** Strong Q2 performance (Oct-Dec)
+  - From Jan to Jul, Net Sales remained stable around ₹4.40–₹4.48 Cr.
+  - **Insight:** Strong sales momentum in Q2 (Oct–Dec), especially December, suggests a festive or seasonal sales spike — possibly due to Diwali, holiday promotions, or year-end buying cycles.
+    - **Opportunity:** Leverage festive season strategies
+
+### 3. **Market Performance vs. Target**
+
+#### Performance Table
+
+| Country       | 2019      | 2020      | 2021       | 2021 - Target 2021 | %        |
+|---------------|-----------|-----------|------------|--------------------|----------|
+| Canada        | ₹0.44 Cr  | ₹1.14 Cr  | ₹3.34 Cr   | -₹0.67 Cr          | -16.81%  |
+| India         | ₹2.87 Cr  | ₹4.79 Cr  | ₹15.42 Cr  | -₹1.66 Cr          | -9.73%   |
+| Philippines   | ₹0.52 Cr  | ₹1.26 Cr  | ₹3.07 Cr   | -₹0.37 Cr          | -10.67%  |
+| South Korea   | ₹1.17 Cr  | ₹1.65 Cr  | ₹4.67 Cr   | -₹0.66 Cr          | -12.40%  |
+| USA           | ₹1.08 Cr  | ₹3.04 Cr  | ₹8.43 Cr   | -₹1.38 Cr          | -14.04%  |
+| **Grand Total** | **₹6.08 Cr** | **₹11.88 Cr** | **₹34.92 Cr** | **-₹4.74 Cr**         | **-11.95%** |
+
+- **Overall Shortfall**: All countries ended up below their market targets for **2021**, with a cumulative shortfall of **₹4.74 Cr**, representing an overall underperformance of **-11.95%**.
+- **Best Relative Performance**: **India** had the **smallest negative deviation** from the target at **-9.73%**.
+- **Largest Decline**: **Canada** witnessed the **highest shortfall** relative to its target at **-16.81%**.
+- **Growth Trend**: Despite missing targets, there was robust sales growth across **all markets** from **2019 to 2021**, with sizable jumps notably in **India** and the **USA**.
+- **Targets Missed in All Markets**
+  - **Challenge:** All markets missed FY21 targets
+  - **Action Required:** Reassess forecasting methodology
+
+### 4. **Net Sales Insights – India**
+
+#### Key Observations
+
+- **Significant Growth Trend**: Net sales in India show a strong upward trend over the three fiscal years analyzed.
+- **FY 2019 Baseline**: Sales started at ₹2.87Cr in FY 2019, which serves as the base year for comparison.
+- **FY 2020 Growth**: Net sales increased to ₹4.79Cr, a rise of ₹1.92Cr, representing a **66.89% growth** over the previous year.
+- **FY 2021 Surge**: Net sales surged to ₹15.42Cr, a substantial jump of ₹10.63Cr and a **221.80% growth** over FY 2020.
+
+#### Summary Table
+
+| Fiscal Year | Net Sales   | YoY Growth (%) | Change (₹ Cr) |
+|-------------|-------------|---------------|---------------|
+| FY 2019     | ₹2.87Cr     | 0.00          | —             |
+| FY 2020     | ₹4.79Cr     | 66.89         | +₹1.92Cr      |
+| FY 2021     | ₹15.42Cr    | 221.80        | +₹10.63Cr     |
+
+#### Interpretations
+
+- The **market in India is experiencing exponential net sales growth**. The increase from FY 2020 to FY 2021 far outpaces the previous year’s percentage and absolute rise.
+- **FY 2021 marks a pivotal acceleration**—the growth rate more than tripled compared to FY 2020, indicating possible entry into a high-growth phase, successful business strategies, or favorable market conditions.
+
+#### Actionable Insights
+
+- **Sustain Momentum**: Leverage the factors contributing to this high growth and identify any replicable strategies.
+- **Monitor Drivers**: Analyze underlying causes for the FY 2021 surge (e.g., market expansion, product launches, policy changes).
+- **Future Planning**: Prepare for scaling operations and managing rapid growth risks as such aggressive increases can strain resources.
+
+#### Conclusion
+
+ - The data highlights **India as a rapidly expanding market** with extraordinary year-on-year sales increases from FY 2019 to FY 2021. This momentum presents significant opportunities but also calls for strategic actions to sustain and capitalize on the growth trajectory.
+
+## Business Insights
+
+### 1. **P & L Fiscal Year**
+
+- Strong Revenue Growth in India.
+- Net Sales increased steadily:
+  - From ₹ 2.87 Cr in FY19 → ₹ 4.79 Cr in FY20 → ₹ 15.42 Cr in FY21.
+  - 5.37x growth over 3 years, showing aggressive expansion.
+- **FY 2021** alone saw **222% growth** from **FY 2020**, indicating a **breakout year**.
+
+### 2. **Seasonal Trends**
 - **Revenue Growth Trend for FY 2021**
   - Net Sales started low in August (₹1.65 Cr) and rapidly increased to a peak in December (₹7.81 Cr).
     - **Peak Month:** December FY21 (₹7.81 Cr)
@@ -213,8 +285,7 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
     - **Opportunity:** Leverage festive season strategies
 
 
-### **Market Performance**
-![Market Performance](assets/m_vs_t_in.png)
+### 3. **Market Performance**
 - **Top Performing Market – India (₹15.42 Cr in FY21)**
   - Highest FY 2021 Net Sales: ₹ 15.42 Cr
   - Despite missing target, India contributed ~44% of total sales (15.42 / 34.92)
@@ -227,7 +298,6 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
   - **Action Required:** Reassess forecasting methodology
 
 ### **Customer Diversification**
-![Customer Diversification](assets/ns_comp_in.png)
 - **India Growth:** 321.8% YoY (₹4.79 Cr → ₹15.42 Cr)
 - **Top Contributors:** Amazon, AtliQ Exclusive, Flipkart
 - **Risk Mitigation:** No single customer >14% dependency
@@ -252,6 +322,8 @@ Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
 - Basic understanding of Excel formulas
 
 ## Contact Me
+
+![P and L By Year](assets/pnl_fy_in.png)
 
 **Durgesh Nautiyal**
 - LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/durgesh-nautiyal-95a866223/)
