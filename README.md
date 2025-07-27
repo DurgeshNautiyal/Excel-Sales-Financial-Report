@@ -135,52 +135,62 @@ A comprehensive Excel-based analytics solution featuring:
 
 ##### (a). Net Sales
 ```dax
-Net Sales = SUM(fact_sales_monthly[Net Sales Amount])
+=SUM(fact_sales_monthly[Net Sales Amount])
 ```
 
 ##### (b). COGS
 ```dax
-COGS = SUM(fact_sales_monthly[Freight Cost]) + 
-       SUM(fact_sales_monthly[Manufacturing Cost])
+=SUM(fact_sales_monthly[Freight Cost]) + SUM(fact_sales_monthly[Manufacturing Cost])
 ```
 
 ##### (c). Gross Margin
 ```dax
-Gross Margin = [Net Sales] - [COGS]
+=[Net Sales] - [COGS]
 ```
 
 ##### (d). Gross Margin %
 ```dax
-Gross Margin % = DIVIDE([Gross Margin], [Net Sales], 0)
+=DIVIDE(
+	[Gross Margin],
+	[Net Sales],
+	0
+	)
 ```
 
 #### 2. Growth Analytics
 
 ##### (a). Net Sales Last Year
 ```dax
-Net Sales LY = CALCULATE([Net Sales], SAMEPERIODLASTYEAR(dim_date[Date]))
+=CALCULATE(
+	[Net Sales],
+	SAMEPERIODLASTYEAR(dim_date[Date])
+	)
 ```
 
 ##### (b). Net Sales Change
 ```dax
-Net Sales Change = [Net Sales] - [Net Sales LY]
+=[Net Sales] - [Net Sales LY]
 ```
 
 ##### (c). % Growth
 ```dax
-% Growth = DIVIDE([Net Sales Change], [Net Sales LY], 0)
+=DIVIDE(
+	[Net Sales Change],
+	[Net Sales LY],
+	0
+	)
 ```
 
 #### 3. Target Analysis
 
 ##### (a). Target 2021
 ```dax
-Target 2021 = SUM(fact_ns_targets_2021[Net Sales Target])
+=SUM(fact_ns_targets_2021[Net Sales Target])
 ```
 
-##### (b). 2021 vs Target
+##### (b). 2021 - Target 2021
 ```dax
-2021 vs Target = [2021] - [Target 2021]
+=[2021]-[Target 2021]
 ```
 
 ## **Technology Stack**
