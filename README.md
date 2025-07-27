@@ -210,7 +210,6 @@ A comprehensive Excel-based analytics solution featuring:
 
 ![P and L By Year](assets/pnl_fy_in.png)
 
-- Strong Revenue Growth in India.
 - Net Sales increased steadily:
   - From ₹ 2.87 Cr in FY19 → ₹ 4.79 Cr in FY20 → ₹ 15.42 Cr in FY21.
   - 5.37x growth over 3 years, showing aggressive expansion.
