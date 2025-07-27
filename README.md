@@ -6,7 +6,7 @@
 [![Power Query](https://img.shields.io/badge/Power%20Query-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)](https://docs.microsoft.com/en-us/power-query/)
 [![DAX](https://img.shields.io/badge/DAX-FF6F00?style=for-the-badge&logo=power-bi&logoColor=white)](https://docs.microsoft.com/en-us/dax/)
 
-**Sales and Financial Report (Live Link):** [View Report](https://1drv.ms/x/c/cd89ad4bb1755907/EYI6m3yFQlNDt4y1tlbT_OgBqOs5u8DbIWc2JVukkvasQw?e=Zv6oB2)
+**Sales and Financial Report (Live Link):** [View Report](https://1drv.ms/x/c/cd89ad4bb1755907/Ec76uDiWw5VKgvUQG_zOEGoBqu1sivnSmKjXlKT8-lY0Rw?e=eQdUw4)
 
 ![Report Demo](assets/report_demo.gif)
 
